@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Screen size adaptive QR-Code">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="Nishant Sharma">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="Rating.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="box1">
+                <div class="icon">
+                    <img src="/images/icon-star.svg" alt="A Star">
+                </div>
+                <div class="content">
+                    <div>
+                        <p class="header">How did we do?</p>
+                    </div>
+                    <div>
+                        <p class="middle">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+                    </div>
+                </div>
+                <div class="ratings">
+                    <button class="nums">1</button>
+                    <button class="nums">2</button>
+                    <button class="nums">3</button>
+                    <button class="nums">4</button>
+                    <button class="nums">5</button>
+                </div>
+                <div>
+                    <button id="sub" class="submit">SUBMIT</button>
+                </div>
+            </div>
+            <div class="box2 hidden">
+                <div class="icon2">
+                    <img class="image" src="/images/illustration-thank-you.svg" alt="A Star">
+                </div>
+                <div>
+                    <p class="rating">You selected <span id="ratin"></span> out of 5 stars</p>
+                </div>
+                <div class="content2">
+                    <p class="thank">Thank you!</p>
+                    <p class="gratitude"> We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
+                </div>
+                </div>
+            </div>
+        </div>
+        <script src="Rating.js"></script>
+    </body>
+</html>
